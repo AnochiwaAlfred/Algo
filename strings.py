@@ -210,3 +210,47 @@ def anagram():
         newWord = newWord + word[i]
     print(newWord)
 # anagram()
+
+
+# 22. A simple way of encrypting a message is to rearrange its characters. One way to rearrange the
+# characters is to pick out the characters at even indices, put them first in the encrypted string,
+# and follow them by the odd characters. For example, the string message would be encrypted
+# as msaeesg because the even characters are m, s, a, e (at indices 0, 2, 4, and 6) and the odd
+# characters are e, s, g (at indices 1, 3, and 5).
+
+# (a) Write a program that asks the user for a string and uses this method to encrypt the string.
+# (b) Write a program that decrypts a string that was encrypted with this method.
+
+def ex22():
+    w = eval(input('enterlist'))
+    print(type(w))
+    print(w)
+
+
+# 24. In calculus, the derivative of x^4 is 4x^3. The derivative of x^5 is 5x^4. The derivative of x^6 is 6x^5.
+# This pattern continues. Write a program that asks the user for input like x^3 or x^25
+# and prints the derivative. For example, if the user enters x^3, the program should print out
+# 3x^2.
+
+def derivative():
+    dy = input('Enter a formular in the format x^3: ')
+    cf = eval(dy[dy.index('^')+1:])
+    derivative = str(cf) + 'x^' + str(cf-1)
+    print(derivative) 
+
+h = '_ _ _ _ _ _'
+
+g = 'Alfred'
+y = 'd'
+# print(g)
+pos = g.find(y)
+for i in range(h.count(' ')):
+    h = h.replace(' ', '')
+h = h[:pos] + y + h[pos+1:]
+
+print(h)
+gl = list(h)
+for i in range(1, len(gl) + len(gl) - 1, 2):
+    gl.insert(i, ' ')
+h = ''.join(gl)
+print(h)
