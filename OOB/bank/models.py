@@ -37,7 +37,7 @@ class User():
         self.account.check_balance()
     
     def deposit(self, amount:int):
-        self.account.deposit()
+        self.account.deposit(amount)
         
     def withdraw(self):
         self.account.withdraw()
@@ -93,6 +93,10 @@ class Account():
     
     def withdraw(self):
         amount:int = int(input('Enter withdrawal amount: '))
+        if amount <=0:
+            print('Enter a valid amount')
+            raise ValueError("Withdrawal amount must be greater than zero")
+            self.withdraw()
         pin = input('Enter pin: ')
         if pin != self.__pin:
             print('Wrong Pin')
@@ -119,7 +123,7 @@ class Deposit():
         self.account_number = input('Enter Account Number: ')
         self.amount = int(input('Enter amount: '))
         self.account = self.check_account(self.account_number, self.account_name)
-        self.deposit(self.account, self.amount)
+        self.deposit(self.account)
         
         Deposit.all.append(self)
         print(f'Deposit of {self.amount} to {self.account} was successful')    
@@ -128,10 +132,10 @@ class Deposit():
         try:
             account = Account.all.get(account_number)
         except:
-            Exception(f'Wrong account details. Account with {account_number} and {self.account_name} does not exist')
+            raise Exception(f'Wrong account details. Account with {account_number} and {self.account_name} does not exist')
         if account.account_name == self.account_name:
             return account
                 
 
-    def deposit(self, account, amount):
-        account.deposit(amount)
+    def deposit(self, account):
+        account.deposit(self.amount)
