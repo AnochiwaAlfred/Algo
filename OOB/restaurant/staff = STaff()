@@ -1,0 +1,27 @@
+Help on class Restaurant in module models:
+
+class RReessttaauurraanntt(builtins.object)
+ |  Restaurant(name)
+ |  
+ |  Methods defined here:
+ |  
+ |  ____iinniitt____(self, name)
+ |      Initialize self.  See help(type(self)) for accurate signature.
+ |  
+ |  ____ssttrr____(self)
+ |      Return str(self).
+ |  
+ |  aadddd__ttoo__bbaallaannccee(self, amount)
+ |  
+ |  ggeett__aaccccoouunntt__bbaallaannccee(self)
+ |  
+ |  mmaakkee__ppaayymmeenntt(self, amount)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  ____ddiicctt____
+ |      dictionary for instance variables (if defined)
+ |  
+ |  ____wweeaakkrreeff____
+ |      list of weak references to the object (if defined)
