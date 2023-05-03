@@ -1,0 +1,19 @@
+Write a program that simulates a bank account. The program should allow users to open a new account, deposit and withdraw funds, and check their balance.
+
+Write a program that simulates a restaurant. The program should allow users to place orders, view the menu, and check their total bill. The program should also keep track of inventory and notify staff when certain ingredients need to be restocked.
+
+Write a program that simulates a shopping cart. The program should allow users to add items to their cart, view their cart, and check out. The program should also keep track of inventory and notify users when certain items are out of stock.
+
+Write a program that simulates a student management system. The program should allow administrators to add and remove students, view student records, and track student performance. The program should also allow teachers to view and update student grades.
+
+Write a program that simulates a social media platform. The program should allow users to create profiles, post updates, and interact with other users. The program should also keep track of user activity and recommend new connections based on similar interests.
+
+Write a program that simulates a video game. The program should allow users to create a character, explore a virtual world, and engage in combat with other players. The program should also keep track of player stats and notify users when they level up or earn new abilities.
+
+Write a program that simulates a fitness tracker. The program should allow users to set fitness goals, track their progress, and receive reminders when it's time to exercise. The program should also provide personalized workout recommendations based on the user's fitness level and preferences.
+
+Write a program that simulates a weather app. The program should allow users to view current weather conditions, check the forecast for the next few days, and receive alerts when severe weather is expected. The program should also allow users to customize their settings and receive weather updates for their current location.
+
+Write a program that simulates a movie recommendation system. The program should allow users to rate movies, view movie recommendations based on their preferences, and receive personalized suggestions for new movies to watch.
+
+Write a program that simulates a job application system. The program should allow users to create a profile, search for job openings, and apply for jobs. The program should also allow employers to post job openings, review resumes, and schedule interviews with potential candidates.

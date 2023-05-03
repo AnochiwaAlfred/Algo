@@ -1,0 +1,48 @@
+
+from models import Customer, Inventory, Staff, Menu, Order, Restaurant
+
+restaurant = Restaurant('ZubbyCakes')
+staff = Staff()
+Alfred
+Anochiwa
+1234
+1234
+
+rice = Inventory('Rice', 100)
+cup
+cups
+beans = Inventory('Beans', 100)
+cup
+cups
+salt = Inventory('Salt', 30)
+cup
+cups
+water = Inventory('Water', 5)
+cup
+cups
+
+rice2 = Menu('Rice', 500)
+1
+10
+y
+3
+1
+y
+4
+40
+n
+beans2 = Menu('Beans', 400)
+2
+10
+y
+3
+1
+y
+4
+40
+n
+customer = Customer()
+John
+Anochiwa
+
+customer.make_order()
