@@ -45,9 +45,9 @@ class Password_manager:
 def run():
     passW = [
             'therealslim', 'netflixandchill',
-            'AlfieXC', 'Alfieolli2409#', 'Alfieolli240999',
-            'Alfieolli240999#', 'cryptalz1200', 'odoo', 'ij12345',
-            'Alfieolli2409'
+            'ieXC', 'ieolli2409#', 'ieolli240999',
+            'ieolli240999#', 'cryptalz1200', 'odoo', 'ij12345',
+            'ieolli2409'
         ]
     c = Password_manager(passW)
     c.set_password()   
